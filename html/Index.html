@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="individual, initial-scale=1.0">
+    <title>Индивидуальный проект</title>
+    <link rel="stylesheet" href="../html/CSS/main.css">
+
+    <!--Satisfy шрифт-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+    <!--Lobster шрифт-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/a101c61208.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+    <!-- header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header_liner">
+                <div data-scroll="#intro">
+                    <img class="header_logo" src="../html/img/JPEG/logo.png" alt="">
+                </div>
+                <!-- Навигация -->
+                <nav class="nav" id="nav">
+                    <a class="nav-link" href="#" data-scroll="#about">Главная</a>
+                    <a class="nav-link" href="#" data-scroll="#moduls">Модули</a>
+                    <a class="nav-link" href="#" data-scroll="#possibility">Возможности</a>
+                    <a class="nav-link" href="#" data-scroll="#config">Конфигурация</a>
+                    <a class="nav-link" href="#" data-scroll="#sistem">Разработчики</a>
+                    <a class="nav-link" href="#" data-scroll="#contact">Контакты</a>
+                    <a class="nav-link" href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </nav>
+
+                <button class="nav-toggle active" id="nav_toggle" type="button">
+                    <span class="nav-toggle_item">Меню </span>
+                </button>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="page">
+
+        <!-- Блок intro -->
+        <div class="intro" id="intro">
+            <div class="container">
+                <div class="intro_liner">
+                    <h2 class="intro-suptitle">Electronic Queue</h2>
+                    <h1 class="intro_title">Система управления очередью для медицинских учреждений</h1>
+                    <a class="buttom" href="#">Узнать больше</a>
+                </div>
+            </div>
+        </div>
+
+        <section class="section" id="about">
+            <div class="container">
+
+                <div class="section_header">
+                    <h1 class="section_suptitle">Медицина</h1>
+
+                    <h2 class="section_title">Профессиональное решение для любых задач!</h2>
+                    <div class="section_text">
+                        <p>
+                            Использование передовых информационных технологий в современных медицинских
+                            центрах позволит внедрить легкий доступ для всех предоставляемых медицинских услуг
+                            пациентам, сданных анализов, выписанных рецептов. Благодаря автоматизации
+                            медицинского учреждения быстро заполняются электронные амбулаторные карты и истории
+                            болезни, составляются отчеты и ведется медицинская статистика.
+                        </p>
+                    </div>
+                </div>
+
+
+                <!--Блок "card" с картинками -->
+                <div class="card">
+                    <div class="card-item">
+                        <div class="card_inner">
+                            <div class="card-img">
+                                <img src="../html/img/JPEG/id1.jpg" alt="1">
+                            </div>
+                            <div class="card-text">Автоматизация <br>регистратуры</div>
+                        </div>
+                        <div class="card_info">Благодаря искусственному интеллекту программы оптимизируется
+                            организация очереди на получение медицинской консультации у участкового
+                            терапевта или у узкого специалиста в регистратуре после чего пациент
+                            перенаправляется к нужному специалисту. Оператор регистратуры может привязать
+                            номер пациента к электронной мед карте пациента для назначения желаемого
+                            времени приема и другие операции.</div>
+                    </div>
+
+                    <div class="card-item">
+                        <div class="card_inner">
+                            <div class="card-img" id="two">
+                                <img src="../html/img/JPEG/id2.jpg" alt="2">
+                            </div>
+                            <div class="card-text">Online запись <br>на приём к врачу</div>
+                        </div>
+                        <div class="card_info">Электронная запись на прием к специалисту в реальном времени с
+                            учетом фактического расписания работы врачей через WEB-сайт клиники,
+                            call-центр, мобильное приложение или стойки регистрации. Возможность
+                            подключения SMS уведомлений.</div>
+                    </div>
+
+                    <div class="card-item">
+                        <div class="card_inner">
+                            <div class="card-img" id="three">
+                                <img src="../html/img/JPEG/id3.jpg" alt="3">
+                            </div>
+                            <div class="card-text">Автомацизация очередей в больницах</div>
+                        </div>
+                        <div class="card_info">
+                            Умное, оптимальное распределение потока пациентов в кабинеты специалистов
+                            с вызовом на световыых табло и ЖК-панелях. Врач имеет возможность
+                            управлять своим расписанием пациентов, просматривать информацию о
+                            списке ожидающих пациентов, а также перенаправлять пациента к другим
+                            специалистам.
+                        </div>
+                    </div>
+
+                </div>    <!-- //*Card -->
+            </div> <!-- //*Container -->
+        </section>
+
+
+        <!-- Список -->
+        <div class="opisanie">
+            <div class="container">
+
+                <div class="section_header">
+                    <h1 class="section_suptitle">Вируальная очередь</h1>
+                    <div class="stat_text  stat_text--text">
+                        <p> Умный ителлект прогрммного обеспечения создаёт виртуальные очереди
+                            приёма больных.
+                        </p>
+                    </div>
+                </div> <!-- //*section_header -->
+
+                <div class="stat_do">
+                    <div class="stat">
+
+                        <ol class="list">
+                            <li class="gal">Позволяет автоматизировать запись к врачу</li>
+                            <li class="gal">Отображает рекламную кампанию поликлиники</li>
+                            <li class="gal">Печатает талоны и карточки</li>
+                            <li class="gal">Отображает текущую информацию о больнице</li>
+                            <li class="gal">Интегрируется с сайтом учреждения</li>
+                        </ol>
+
+                    </div>
+                    <div class="stat">
+
+                        <ol class="list">
+                            <li class="gal">Возможность произвести запись на прием самостоятельно с терминала</li>
+                            <li class="gal">Распределение потоков посетителей по приоритетам</li>
+                            <li class="gal">Звуковое и видеооповещение вызова</li>
+                            <li class="gal">После получения консультации в регистратуре пациенты отправляются на прием в
+                                кабинет специалиста или на стойку оплаты услуг</li>
+                        </ol>
+
+                    </div>
+                </div> <!-- /stat_do -->
+            </div>    <!-- //*Container -->
+        </div>
+
+        <!-- Модули -->
+        <section class="section" id="moduls">
+            <div class="container">
+                <div class="section_header  section_header--first">
+                    <h1 class="section_suptitle">Программные модули</h1>
+
+                    <h2 class="section_title2">Модульная система позволяет выбрать
+                        необходимые опции для текущей работы.</h2>
+                </div>
+
+                <div class="icon">
+                    <div class="icon_item  icon_item--border">
+                        <img class="icon_icon" src="../html/img/icon/clip.png" alt="">
+                        <div class="icon_title">Интернет запись</div>
+                        <div class="icon_text">Запись пациентов на прием через Интернет-сайт</div>
+                    </div>
+
+                    <div class="icon_item  icon_item--border">
+                        <img class="icon_icon" src="../html/img/icon/sms.png" alt="">
+                        <div class="icon_title">СМС оповещения</div>
+                        <div class="icon_text">Информирование пациентов о посещениях клиники</div>
+                    </div>
+
+                    <div class="icon_item  icon_item--border">
+                        <img class="icon_icon" src="../html/img/icon/unnamed.png" alt="">
+                        <div class="icon_title">Карточка пациента</div>
+                        <div class="icon_text">Учет оказанных услуг и времени приема у специалистов</div>
+                    </div>
+
+                    <div class="icon_item  icon_item--border">
+                        <img class="icon_icon" src="../html/img/icon/calendar.png" alt="">
+                        <div class="icon_title">Расписание работы</div>
+                        <div class="icon_text">Онлайн-расписание работы специалистов.</div>
+                    </div>
+
+                    <div class="icon_item  icon_item--border">
+                        <img class="icon_icon" src="../html/img/icon/earth.png" alt="">
+                        <div class="icon_title">Мультиязычность</div>
+                        <div class="icon_text">Интерфейс програмного обеспения на различных языках</div>
+                    </div>
+
+                    <div class="icon_item  icon_item--border">
+                        <img class="icon_icon" src="../html/img/icon/statistic.png" alt="">
+                        <div class="icon_title">Статистика</div>
+                        <div class="icon_text">Подготовка подробных отчетов о работе системы</div>
+                    </div>
+
+                    <div class="icon_item">
+                        <img class="icon_icon" src="../html/img/icon/center-call.png" alt="">
+                        <div class="icon_title">Колл-центр</div>
+                        <div class="icon_text">Помощь в быстром получении информации и консультации</div>
+                    </div>
+
+                    <div class="icon_item">
+                        <img class="icon_icon" src="../html/img/icon/service.png" alt="">
+                        <div class="icon_title">Инетграция с БД</div>
+                        <div class="icon_text">Настройка синхронизации со сторонними системами</div>
+                    </div>
+
+                    <div class="icon_item  icon_item--last">
+                        <img class="icon_icon" src="../html/img/icon/admin.png" alt="">
+                        <div class="icon_title">Администрирование</div>
+                        <div class="icon_text">Удаленная настройка и администрирование</div>
+                    </div>
+
+                </div> <!-- //*icon -->
+
+            </div> <!-- //*Container -->
+
+        </section> <!-- //*Section -->
+
+
+        <!-- Блок devices-->
+        <section class="section  section--devices">
+            <div class="container">
+
+                <h1 class="stat_section">Виртуальная очередь</h1>
+                <div class="stat_text stat_text--text">
+                    <p>Умный ителлект прогрммного обеспечения создаёет виртуальные очереди
+                        приёма больных.
+                    </p>
+                </div>
+
+                <div class="devices">
+                    <img class="devices-item" src="../html/img/JPEG/ipad2.png" alt="ipad">
+                    <img class="devices-item  devices-item--phone" src="../html/img/JPEG/phone.png" alt="phone">
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Возможности -->
+        <section class="section  section--bg" id="possibility">
+            <div class="container">
+
+                <div class="section_header">
+                    <h3 class="section_suptitle">Возможности</h3>
+                    <h2 class="section_title"></h2>
+                    <div class="stat_text">
+                        <p> Обеспечивает быстрый, короткий доступ пациента к врачам, терапевтам,
+                            узким специалистам, повышает качество скорости доступа лабораторных исследований
+                            (анализов) Быстрая информативность по всем медицинским вопросам. Экономия времени,
+                            улучшения качества медицинского обслуживания и жизни пациентов.
+                        </p>
+                    </div>
+                </div> <!-- //*section_header -->
+
+                <!-- Аккордион -->
+                <div class="howdo">
+                    <div class="howdo_item">
+                        <img class="howdo_img" src="../html/img/JPEG/managed.jpg" alt="managed">
+                    </div>
+
+                    <div class="howdo_item">
+
+                        <div class="accordion">
+                            <div class="accordion_item" data-collapse="#howdo1">
+                                <input class="faq-input" type="radio" name="faq" id="faq_1">
+                                <div class="accordion_header">
+                                    <img class="accordion_icon" src="../html/img/icon/serv.png" alt="">
+                                    <label class="accordion_title" for="faq_1">Установка</label>
+                                </div>
+                                <div class="accordion_content" id="howdo1">
+                                    <P>
+                                        Регистратор со встроенным сервером размещается в зоне встречи
+                                        пациентов. Регистратор располагается вблизи от входа на пути движения пациента.
+                                        При этом регистратор не должен создавать
+                                        препятствия для выходящих пациентов.
+                                    </P>
+                                </div>
+                            </div> <!-- //*accordion -->
+
+                            <div class="accordion_item" data-collapse="#howdo2">
+                                <input class="faq-input" type="radio" name="faq" id="faq_2">
+                                <div class="accordion_header">
+                                    <img class="accordion_icon" src="../html/img/icon/base.png" alt="">
+                                    <label class="accordion_title" for="faq_2">База данных</label>
+                                </div>
+                                <div class="accordion_content" id="howdo2">
+                                    <P>Целью создания базы данных является автоматизация учета информации
+                                        о приеме пациентов. Входная информация содержит базы данных:
+                                        медицинских карт, график приема пациентов, сведения о пациентах
+                                        и врачах.
+                                    </P>
+                                </div>
+                            </div>
+
+                            <div class="accordion_item" data-collapse="#howdo3">
+                                <input class="faq-input" type="radio" name="faq" id="faq_3">
+                                <div class="accordion_header">
+                                    <img class="accordion_icon" src="../html/img/icon/voz.png" alt="">
+                                    <label class="accordion_title" for="faq_3">Возможности</label>
+                                </div>
+                                <div class="accordion_content" id="howdo3">
+                                    <P> Возможности проектируемой базы: хранение информации о
+                                        врачах клиники, пациентах; хранение информации о приемах, в том
+                                        числе диагнозах и лечении, а также стоимости лечения; обновление
+                                        и добавление информации; анализ информации по различным срезам
+                                        (пациенты, кабинеты, врачи); выдача итоговой информации в виде отчетов.
+                                    </P>
+                                </div>
+                            </div>
+
+                        </div> <!-- //*accordion -->
+                    </div> <!-- //*howdo_item -->
+                </div> <!-- //*howdo -->
+            </div> <!-- //*container -->
+        </section>
+
+        <!--Конфигурация-->
+        <div class="section section--blue" id="config">
+            <div class="container">
+
+                <div class="looked">
+
+                    <div class="looked_item">
+                        <img class="looked_hpoto" src="../html/img/JPEG/area.jpg" alt="">
+                        <div class="looked_text">
+                            <p>Информационная локальная сеть в медицинском учреждении, состоит из нескольких
+                                обязательных компонентов: аппаратная часть (ПК, сервера, рабочая станция,
+                                медицинские электронные приборы и аппараты), средства коммутации (модем,
+                                роутер, оптоволокно, сетевые карты), соответствующее программное обеспечение.
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="looked_item1">
+                        <img class="looked_hpoto-2" src="../html/img/JPEG/app.png" alt="">
+                        <div class="looked_text-2">
+                            <p>Отличное решение реализации электронных очередей - дополнительные экраны для
+                                отображения информации. Электронное табло позволяет отображать информацию по
+                                текущему потоку и использовать для рекламы. Главное информационное табло –
+                                на нем отображается история вызовов, при этом каждый новый вызов выводится
+                                отдельным окном посередине экрана.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="looked_item">
+                        <img class="looked_hpoto" src="../html/img/JPEG/vrach.jpg" alt="">
+                        <div class="looked_text">
+                            <p>Прогрмманое обесепечение позволяет синхронизировать информацию с базой данных
+                                других медецинских учереждений, больниц, диагностических центров. Позволяет
+                                брать online консультации с врачами других клиник, что даёт возмжность быстро
+                                установить диангоз пациента и приступить к его лечению. Это позволяет
+                                повысить качество жизни пациентов.
+                            </p>
+                        </div>
+                    </div>
+
+                </div> <!-- //*looked -->
+
+            </div>
+        </div>
+
+        <!--Разработчики-->
+        <section class="section" id="sistem">
+            <div class="container">
+
+                <div class="section_header">
+                    <h1 class="section_suptitle">Автоматизированные системы управления</h1>
+
+                    <h2 class="section_title">Разработчики</h2>
+                    <div class="section_text">
+                        <p>
+                            Специфика процессов оказания медицинской помощи требует интеграции и
+                            эффективного сотрудничества людей самых разных профессий. Команде разработчиков
+                            создаёт медицинское программное обеспечение, которые охватывает все этапы разработки:
+                            от предварительных консультаций до технической поддержки готового решения.
+                            Мы владеем разработкой: любых медицинских приложений под заказ, медицинских
+                            мобильных и веб-приложений.
+                        </p>
+                    </div>
+                </div> <!-- //*section_header -->
+
+                <div class="card">
+                    <div class="card-item">
+                        <div class="card_inner">
+                            <div class="card-img">
+                                <img src="../html/img/team/one.jpg" alt="1">
+                            </div>
+                            <div class="card-text">
+                                <div class="social">
+                                    <a class="social_item" href="#" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="social_item" href="#" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="social_item" href="#" target="_blank">
+                                        <i class="fab fa-vk"></i>
+                                    </a>
+                                    <a class="social_item" href="#" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_info card_info--info">Включение в базу данных</div>
+                    </div>
+                    <!--//*card-item-->
+
+                    <div class="card-item">
+                        <div class="card_inner">
+                            <div class="card-img" id="two">
+                                <img src="../html/img/team/two.jpg" alt="2">
+                            </div>
+                            <div class="card-text">
+                                <div class="social">
+                                    <a class="social_item" href="#" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="social_item" href="#" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="social_item" href="#" target="_blank">
+                                        <i class="fab fa-vk"></i>
+                                    </a>
+                                    <a class="social_item" href="#" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_info card_info--info">Разработка и тестирование</div>
+                    </div> <!--//*card-item-->
+
+
+                    <div class="card-item">
+                        <div class="card_inner">
+                            <div class="card-img" id="three">
+                                <img src="../html/img/team/three.jpg" alt="3">
+                            </div>
+                            <div class="card-text">
+                                <div class="social">
+                                    <a class="social_item" href="#" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="social_item" href="#" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="social_item" href="#" target="_blank">
+                                        <i class="fab fa-vk"></i>
+                                    </a>
+                                    <a class="social_item" href="#" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card_info card_info--info">Команда разработчиков</div>
+                    </div> <!--//*card-item-->
+
+                </div> <!-- //*Card -->
+
+            </div> <!-- //*Container -->
+
+        </section> <!-- //*section -->
+
+        <!--Логотипы-->
+        <div class="section section--blue">
+            <div class="container">
+
+                <div class="logos">
+                    <div class="logos_item">
+                        <img class="logos_img" src="../html/img/logos/1.png" alt="">
+                    </div>
+                    <div class="logos_item">
+                        <img class="logos_img" src="../html/img/logos/2.png" alt="">
+                    </div>
+                    <div class="logos_item">
+                        <img class="logos_img" src="../html/img/logos/3.png" alt="">
+                    </div>
+                    <div class="logos_item">
+                        <img class="logos_img" src="../html/img/logos/4.png" alt="">
+                    </div>
+                    <div class="logos_item">
+                        <img class="logos_img" src="../html/img/logos/5.png" alt="">
+                    </div>
+                    <div class="logos_item">
+                        <img class="logos_img" src="../html/img/logos/6.png" alt="">
+                    </div>
+                </div>
+
+            </div> <!-- //*Container -->
+        </div>
+
+        <!--Проекты-->
+        <section class="section">
+            <div class="container">
+                <div class="section_header">
+                    <h1 class="section_suptitle">Проекты</h1>
+
+                    <div class="section_text stat_text--text">
+                        <p>
+                            Интерактивные экраны, моноблоки.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="works">
+                <div class="works_col">
+
+                    <div class="works_item">
+                        <img class="works_img" src="../html/img/Interactive/1.jpg" alt="">
+                        <div class="works_info">
+                            <div class="works_title">Интерактивное окно</div>
+                            <div class="works_text">Вывод расписания</div>
+                        </div>
+                    </div>
+                    <div class="works_item">
+                        <img class="works_img" src="../html/img/Interactive/2.jpg" alt="">
+                        <div class="works_info">
+                            <div class="works_title">Окно очереди</div>
+                            <div class="works_text">Вывод расписания</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works_col">
+                    <div class="works_item">
+                        <img class="works_img" src="../html/img/Interactive/3.jpg" alt="">
+                        <div class="works_info">
+                            <div class="works_title">Оборудование</div>
+                            <div class="works_text">Для регистрации</div>
+                        </div>
+                    </div>
+                    <div class="works_item">
+                        <img class="works_img" src="../html/img/Interactive/4.jpg" alt="">
+                        <div class="works_info">
+                            <div class="works_title">Оборудование для очередей</div>
+                            <div class="works_text">Разновидность</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works_col">
+                    <div class="works_item">
+                        <img class="works_img" src="../html/img/Interactive/5.jpg" alt="">
+                        <div class="works_info">
+                            <div class="works_title">Оборудование</div>
+                            <div class="works_text">Для регистрации</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works_col">
+                    <div class="works_item">
+                        <img class="works_img" src="../html/img/Interactive/6.jpg" alt="">
+                        <div class="works_info">
+                            <div class="works_title">Интерактивное окно</div>
+                            <div class="works_text">Запись на приём</div>
+                        </div>
+                    </div>
+                    <div class="works_item">
+                        <img class="works_img" src="../html/img/Interactive/7.jpg" alt="">
+                        <div class="works_info">
+                            <div class="works_title">Окно очереди</div>
+                            <div class="works_text">Вывод расписания</div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- //*works -->
+        </section> <!-- //*section -->
+
+        <!-- Блог -->
+        <section class="section section--blue"  id="contact">
+            <div class="container">
+
+                <div class="section_header">
+                    <h1 class="section_suptitle">Наш Блог</h1>
+                </div>
+
+                <div class="blog">
+                    <div class="blog_item">
+                        <div class="blog_header">
+                            <a href="#">
+                                <img class="blog_photo" src="../html/img/team/1.jpeg" alt="">
+                            </a>
+                            <div class="blog_date">
+                                <div class="blog_date_day">18</div>Мая
+                            </div>
+                        </div>
+                        <div class="blog_content">
+                            <div class="blog_title">
+                                <a href="#">Интерпретация</a>
+                            </div>
+                            <div class="blog_text"> Интерпретаторы - трансляторы, которые
+                                преобразуют исходный код в машинный код. Интерпретатор читает исходный
+                                код программы и выполняет его построчно.</div>
+                        </div>
+                        <div class="blog_footer">
+                            <div class="blog__stat">
+                                <span class="blog_stat-item">
+                                    <i class="far fa-eye"></i> 542
+                                </span>
+                                <span class="blog_stat-item">
+                                    <i class="far fa-comment-dots"></i> 19
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog_item">
+                        <div class="blog_header">
+                            <a href="#">
+                                <img class="blog_photo" src="../html/img/team/2.jpg" alt="">
+                            </a>
+                            <div class="blog_date">
+                                <div class="blog_date_day">20</div>Мая
+                            </div>
+                        </div>
+                        <div class="blog_content">
+                            <div class="blog_title">
+                                <a href="#">Иструменты тестирования</a>
+                            </div>
+                            <div class="blog_text">Инструменты тестирования – это программные продукты,
+                                которые помогают инженерам эффективно организовывать свою работу на каждом
+                                этапе тестирования ПО.</div>
+                        </div>
+                        <div class="blog_footer">
+                            <div class="blog__stat">
+                                <span class="blog_stat-item">
+                                    <i class="far fa-eye"></i> 105
+                                </span>
+                                <span class="blog_stat-item">
+                                    <i class="far fa-comment-dots"></i> 82
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog_item">
+                        <div class="blog_header">
+                            <a href="#">
+                                <img class="blog_photo" src="../html/img/team/3.jpg" alt="">
+                            </a>
+                            <div class="blog_date">
+                                <div class="blog_date_day">24</div>Июня
+                            </div>
+                        </div>
+                        <div class="blog_content">
+                            <div class="blog_title">
+                                <a href="#">Анализ IT</a>
+                            </div>
+                            <div class="blog_text">Получение инструментов для оценки целесообразности проекта.
+                                Документы с описанием целей, стратегий и функций используются
+                                для оценки стоимости проекта.</div>
+                        </div>
+                        <div class="blog_footer">
+                            <div class="blog__stat">
+                                <span class="blog_stat-item">
+                                    <i class="far fa-eye"></i> 284
+                                </span>
+                                <span class="blog_stat-item">
+                                    <i class="far fa-comment-dots"></i> 15
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- //*blog -->
+            </div> <!-- //*container -->
+        </section>
+
+        <!--Карта-->
+        <section class="section section--map">
+            <div class="container">
+                <div class="map">
+                    <h2 class="map_title">
+                        <div><i class="fas fa-globe-europe"></i></div>
+                        <a href="#">Место положения</a>
+                    </h2>
+                </div>
+            </div>
+        </section>
+
+        <!--Контакты-->
+        <div class="footer">
+            <div class="container">
+
+                <div class="footer_inner">
+                    <div class="footer_col  footer_col--first">
+                        <div class="footer_logo">Electronic Queue</div>
+                        <div class="footer_text">
+                            Использование передовых информационных технологий в современных
+                            медицинских центрах позволит внедрить легкий доступ для всех
+                            предоставляемых медицинских услуг пациентам, сданных анализов,
+                            выписанных рецептов. Автоматизации медицинского
+                            учреждения, медицинская статистика.
+                        </div>
+                        <div class="footer_social">
+                            <div class="footer_social-header">
+                                <b>2 тысячи </b> разработчиков
+                            </div>
+                            <div class="footer_social-content">
+                                Мы есть в:
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fab fa-vk"></i>
+                                </a>
+                                <a href="#" target="_blank">
+                                    <i class="fas fa-layer-group"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <form class="subscribe" action="/" method="POST">
+                            <input class="subscribe_input" type="email" placeholder="Ваш email...">
+                            <button class="subscribe_btn" type="submit">Отправить</button>
+                        </form>
+                    </div> <!-- //*footer_col -->
+
+                    <div class="footer_col  footer_col--second">
+                        <div class="footer_title">Blogs</div>
+
+                        <div class="blogs">
+                            <div class="blogs_item">
+                                <img class="blogs_img" src="../html/img/team/1.jpeg" alt="">
+                                <div class="blogs_content">
+                                    <a class="blogs_title" href="#">Интерпретаторы - трансляторы</a>
+                                    <div class="blogs_date">Апрель 9, 2021</div>
+                                </div>
+                            </div>
+
+                            <div class="blogs_item">
+                                <img class="blogs_img" src="../html/img/team/2.jpg" alt="">
+                                <div class="blogs_content">
+                                    <a class="blogs_title" href="#">Иструменты тестирования</a>
+                                    <div class="blogs_date">Апрель 20, 2021</div>
+                                </div>
+                            </div>
+
+                            <div class="blogs_item">
+                                <img class="blogs_img" src="../html/img/team/3.jpg" alt="">
+                                <div class="blogs_content">
+                                    <a class="blogs_title" href="#">Получение инструментов для оценки</a>
+                                    <div class="blogs_date">Май 18, 2021</div>
+                                </div>
+                            </div>
+                        </div><!-- //*blogs -->
+                    </div> <!-- //*footer_col  footer_col--second -->
+
+                    <div class="footer_col  footer_col--third">
+                        <div class="footer_title ">Контакты</div>
+
+                        <div class="phone">
+
+                            <div class="phone_item">
+                                <i class="fas fa-phone"></i>
+                                <div class="phone_number">+54885 215-54-57</div>
+                            </div>
+
+                            <div class="phone_item">
+                                <i class="fas fa-phone"></i>
+                                <div class="phone_number">+54889 545-52-76</div>
+                            </div>
+
+                        </div> <!-- //*phone -->
+
+                    </div> <!-- //*footer_col  footer_col--third -->
+
+                </div> <!-- //*footer_inner -->
+
+                <div class="copyright">
+                    © 2021
+                </div>
+
+            </div> <!-- //*container -->
+        </div>
+
+    </div> <!-- //*Page -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="../html/js/min.js"></script>
+
+</body>
+</html>
